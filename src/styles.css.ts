@@ -16,3 +16,11 @@ export const title = style({
 export const subtitle = style({
   fontSize: 'var(--font-size--large)',
 })
+
+export const link = style({
+  color: 'blue',
+  ':hover': {
+    opacity: 0.6,
+    textDecoration: 'underline',
+  },
+})
