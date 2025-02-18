@@ -1,3 +1,4 @@
+import { Paragraph } from './components/Paragraph/Paragraph'
 import { link, subtitle, title } from './styles.css'
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
             Sample Link
           </a>
         </p>
+        <Paragraph fontSize="medium">
+          This is a paragraph component with some text.
+        </Paragraph>
       </div>
     </>
   )
