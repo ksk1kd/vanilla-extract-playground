@@ -1,7 +1,11 @@
+import { title } from './styles.css'
+
 function App() {
   return (
     <>
-      <div className="container">Contents</div>
+      <div className="container">
+        <h1 className={title}>Vanilla Extract Playground</h1>
+      </div>
     </>
   )
 }
